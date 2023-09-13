@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://web.facebook.com/johncena" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.instagram.com/johncena/" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="https://twitter.com/JohnCena" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="https://open.spotify.com/artist/0CV4DAO1wV3ikZGYIkMtmh" class="w3-bar-item w3-button"><i class="fa fa-spotify"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>WWE WRESTLING</b></h1>
+    <h6>Welcome to the blog of John Cena <span class="w3-tag">Cena ' s World</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="WWE.jpeg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">PRESENTATION</h1> 
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>TONKOON SIRILUAN</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">Sead To Massage</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>JOHN CENA</h3>
+          <h5>Birthday, <span class="w3-opacity">April 16, 1977</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="John Cena 5 yo.avif" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong>John Cena</strong> Born: April 23, 1977 (age 46), West Newberry, Massachusetts, United States Height: 1.85 m Now He's World Wrestling In WWE. .</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="orton comment .jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Randy Orton <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>He's WWE Champion 16 Time</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>John Cena 16 Time</h3>
+          <h5>25 Year 16 Time Champion, <span class="w3-opacity">April 23, 2004 - 2019 </span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="John Cena Champion 16 times.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <p><strong>John Cena</strong> YOU CAN'T SEE ME !</p>
+          <p>I,m The Best Wrestling in WWE World Wrestling He's Champion 16 Time in 20 Year A joint-record 16-time world champion, Cena is a record 13-time WWE Champion and three-time World Heavyweight Champion.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="reymisterio comment.webp" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Reymisterio <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>WoW 16 Time OMG!!!.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="Tripple HHH.avif" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Tripple H <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                <p>Nice BrO!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>John Cena's 15 Best World Title Matches</h3>
+          <h5>John Cena Best Matches , <span class="w3-opacity">In 2015</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="The Best match cena.avif" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>John Cena</strong> John Cena is a wrestler who made a good wrestling match in 2015. He has wrestled 3 matches and he has defended the title 3 times. But at the end of that year he lost the championship.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="cmp.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>CM Punk<span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>I Have Skill Win You Bro !!.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="DNB3.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Daniel Bryan <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>I Get WWE Champion !.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="Edge r.avif" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Edge<span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>Nice Match Wow!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="Best Champions Ce.avif" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h2>JOHN CENA</h2>
+          <p>At WWE Royal Rumble 2017, John Cena tied Ric Flair's long-standing record when he won his 16th world championship after defeating AJ Styles in an instant classic. It was a special moment that acknowledged how important Cena has been to WWE over the past 15 years..</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Fan Massage to John Cana</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="AJ.Moo.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">AJ.MOO</span>
+            <br>
+            <span>Come Back in 2023 OMG!!</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="016.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">TONKOON</span>
+            <br>
+            <span>I Love John Cena</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="wan.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">WAN</span>
+            <br>
+            <span>I Love You Cena Comeing Thailand Pls</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="Tar.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">TAR</span>
+            <br>
+            <span>16 Times OMG!!</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Chapions In WWE</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">WWE Undisbuted Championship</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">WWE Intercontinental Championship</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">ECW Championship</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">WWE Championship</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Raw TagTeam Championship</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">WCW Championship</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">WWE TagTeam Championship</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">SmackDown TagTeam Championship</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">WWE Hardcore Championship</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">WWE Girl TagTeam Championship</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NXT Championship</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Nxt Cruiserweight Championship </span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">WWE World Heavyweight Championship</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NXT UK Championship</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Superstar in WWE</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="triple-h-1000x600.jpg" alt="Jeans" style="width:100%"></p>
+            <p><img src="reymisterio.webp" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="cena.avif" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="orton.jpg" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow John Cena</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <a href="https://web.facebook.com/johncena"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+          <a href="https://www.instagram.com/johncena/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+          <a href="https://twitter.com/JohnCena"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+          <a href="https://open.spotify.com/artist/0CV4DAO1wV3ikZGYIkMtmh"><i class="fa fa-spotify w3-hover-opacity"></i></a>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Massage to Cena </h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('sead to massage').style.display='block'" class="w3-button w3-block w3-red">Saed To Massage</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
